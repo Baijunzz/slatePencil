@@ -1,0 +1,11 @@
+/*
+    resets the margin and padding for all files in slatePencil
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: reset.css
+ */
+* {
+  padding: 0;
+  margin: 0;
+}

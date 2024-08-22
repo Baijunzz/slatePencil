@@ -1,0 +1,37 @@
+/*
+    Defines all layout for slatePencil website
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: layout.css
+ */
+body {
+  display: grid;
+  grid-template-areas:
+    "img img vert"
+    "hori hori hori"
+    "main main main"
+    "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e9c96f;
+}
+
+#logo {
+  grid-area: img;
+}
+
+.vertical {
+  grid-area: vert;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.horizontal {
+  grid-area: hori;
+}

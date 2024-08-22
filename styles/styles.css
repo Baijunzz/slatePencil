@@ -1,0 +1,54 @@
+/*
+    Defines all basic styles for slatePencil website
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: style.css
+ */
+#logo {
+  width: 100%;
+}
+
+.vertical {
+  background-color: #709ade;
+}
+
+.vertical ul {
+  list-style: none;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.vertical a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.row {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #19002f;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-evenly;
+}
+
+.row a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f5f5dc;
+}
+
+footer {
+  background-color: #19002f;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
