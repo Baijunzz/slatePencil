@@ -1,0 +1,45 @@
+/*
+    Defines css properties for index page
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: index.css
+ */
+main {
+  display: grid;
+  grid-template-areas:
+    "one two three"
+    ". four .";
+  grid-template-columns: 1fr 1fr 1fr;
+  /* from: https://www.w3schools.com/cssref/pr_grid-template-areas.php, "." in
+     grid template area means blank space. */
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+  padding: 20px 80px;
+}
+
+main section:first-child {
+  grid-area: one;
+}
+
+main section:nth-child(2) {
+  grid-area: two;
+}
+
+main section:nth-child(3) {
+  grid-area: three;
+}
+
+main section:nth-child(4) {
+  grid-area: four;
+  justify-self: center;
+}
+
+main img {
+  width: 50%;
+}
+
+section p {
+  color: #64199f;
+}

@@ -1,0 +1,69 @@
+/*
+    Defines css properties for pricing page
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: pricing.css
+ */
+
+main table thead {
+  background-color: #19002f;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  /* https://www.w3schools.com/cssref/pr_border-collapse.php, collapses the borders */
+  margin: 40px 50px;
+  grid-area: table;
+}
+
+th,
+td {
+  border: 1px solid #19002f;
+  padding: 5px;
+  vertical-align: top;
+  /* https://stackoverflow.com/questions/3565620/how-to-align-the-table-cells-content-on-the-top
+    shows how to align content to the top */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c1c1d6;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ebebf7;
+}
+
+aside {
+  display: flex;
+  background-color: #e3e399;
+  border-radius: 10px;
+  border: 3px solid black;
+  flex-direction: column;
+  grid-area: aside;
+  margin: 35px;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "table table aside";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+aside ul {
+  margin-left: 35px;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside p {
+  margin: 10px 10px;
+  margin-bottom: 20px;
+}

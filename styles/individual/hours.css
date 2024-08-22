@@ -1,0 +1,38 @@
+/*
+    Defines css properties for hours page
+
+    Author: Basil Paija Pun
+    Date: 21/8/2024
+    File: hours.css
+ */
+main table thead {
+  background-color: #19002f;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  /* https://www.w3schools.com/cssref/pr_border-collapse.php, collapses the borders */
+  margin: 20px 50px;
+}
+
+th,
+td {
+  border: 1px solid #19002f;
+  padding: 5px;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c1c1d6;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ebebf7;
+}
+
+p {
+  color: #4022ba;
+  margin-top: 20px;
+  margin-left: 20px;
+}
